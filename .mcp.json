@@ -1,0 +1,9 @@
+{
+  "n8n-mcp": {
+    "type": "http",
+    "url": "https://isaachw.app.n8n.cloud/mcp-server/http",
+    "headers": {
+      "Authorization": "Bearer ${N8N_MCP_TOKEN}"
+    }
+  }
+}
